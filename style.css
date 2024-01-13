@@ -80,6 +80,7 @@ header>div>ul>li>a{
         padding-left: 30px;
         font-size: 17px;
         padding-top: 7px;
+        font-weight: 700;
     }
 
             @media screen and (max-width:900px){
