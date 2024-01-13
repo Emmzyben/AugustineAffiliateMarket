@@ -76,6 +76,9 @@ header>div>ul>li>a{
             display: none;
             position: sticky;top: 0;background-color: #fff;
             }
+    aside>div>h3{
+        padding-left: 20px;
+    }
 
             @media screen and (max-width:900px){
                 aside{
