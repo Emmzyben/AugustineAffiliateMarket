@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <header>
+<div><p>Coach Augustine Affiliate Market</p></div>
+<div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+    </header>
+
+    <aside >
+        <div style="width: 20%;"></div>
+        <div style="text-align: left;padding-top: 15px;color: #0075dd;"><h3>Coach Augustine affiliate market</h3></div>
+        <div  id="span" onclick="openNav()" style="cursor: pointer;">&#9776;</div>
+    </aside>
+
+<nav>
+    <div id="mySidenav" class="sidenav">
+     
+            <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+     
+    </div>
+    <script>
+      
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
+  var open = false;
+
+function openNav() {
+    var sideNav = document.getElementById("mySidenav");
+    
+    if (sideNav.style.width === "0px" || sideNav.style.width === "") {
+        sideNav.style.width = "250px";
+        open = true;
+    } else {
+        sideNav.style.width = "0";
+        open = false;
+    }
+}
+    </script>
+</nav>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
