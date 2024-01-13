@@ -90,9 +90,14 @@ header>div>ul>li>a{
     border-radius: 8px;
     font-size: 17px;
 }
+#contact:hover{
+    background-color:#0075dd;
+}
             @media screen and (max-width:900px){
                 #contact{
                     border-radius: 0;
+                    padding: 0;
+                    padding-left: 15px;
                 }
                 aside{
                   display: block;
