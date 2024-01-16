@@ -84,6 +84,7 @@ header>div>ul>li>a{
             display: none;
             position: sticky;top: 0;background-color: #fff;
             border-bottom: 1px solid #b3afaf;
+            z-index: 10000;
             }
     aside>div>p{
         padding-left: 30px;
