@@ -163,6 +163,7 @@ button{
     color: #fff;
     border-radius: 8px;
     border: 0px solid black; 
+    font-size: larger;
 }
 #coach{
     text-align: center;
@@ -227,10 +228,13 @@ box-shadow: 2px 2px 10px gray;
 
 @media screen and (max-width:900px){
     #intro>h1{
-        font-size: 22px;
+        font-size: 19px;
     }
     #intro>h2{
-        font-size: 22px;
+        font-size: 19px;
+    }
+    #coach>h2{
+        font-size: 19px;
     }
                 #contact{
                     border-radius: 0;
