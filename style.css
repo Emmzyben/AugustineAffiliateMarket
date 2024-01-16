@@ -10,6 +10,7 @@ header{
     position: sticky;
     top: 0;
     background-color: #fff;
+    z-index: 10000;
 }
 header>div{
     width: 45%;
