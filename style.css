@@ -154,36 +154,32 @@ border-bottom-left-radius: 200px;
     text-align: center;
     width: 600px;
     line-height: 25px;
-    font-size: 17px;
     padding: 30px;
    
 }
-
+button{
+    padding: 10px;
+    background-color: #36a900;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px solid black; 
+}
 #coach{
     text-align: center;
     width: 700px;
     padding: 20px;
 }
-button{
-    padding: 10px;
-    font-size: 21px;
-    background-color: #36a900;
-    color: #fff;
-    border-radius: 8px;
-    border: 0px solid black;   
-}
 #testimonials{
     display: flex;
     flex-direction: row;
+   flex-wrap: wrap;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
 }
 #testimonials>div{
-    background-color:#cff7bc;
-    color: #0a0505;
+    background-color:#0075dd;
+    color: #fff;
+    font-weight: bold;
     width: 40%;
-    font-size: large;
     margin: 20px;
     height: auto;
 box-shadow: 2px 2px 10px gray;
@@ -202,7 +198,7 @@ box-shadow: 2px 2px 10px gray;
     #testimonials>div{
         width: 90%;
         margin: 30px;
-    }
+}
 #cover{
    display: none;
 }
@@ -223,17 +219,13 @@ box-shadow: 2px 2px 10px gray;
         font-style: italic;
     }
     #intro{
-        font-size: 16px;
         padding: 20px;
        
     }
-    
+   
 }
 
 @media screen and (max-width:900px){
-    button{
-        font-size: 17px;
-    }
     #intro>h1{
         font-size: 22px;
     }
